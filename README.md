@@ -128,10 +128,9 @@ npm run check        # 校验 + 构建 + 站内链接自检 + 页面自检，提
 
 ## 上线状态
 
-2026-09-27 上线：仓库 `lishuiorg/site-shanshui`、Pages 发布 `shanshui.lishui.org`，门户 `sites.json` 的 `shanshui` 已改 `live`，门户与三个兄弟站的顶部导航均已挂上本站。
+2026-09-27 上线：仓库 `lishuiorg/site-shanshui`、Pages 发布 `shanshui.lishui.org`（已强制 HTTPS），门户 `sites.json` 的 `shanshui` 已改 `live`，门户与三个兄弟站的顶部导航均已挂上本站。
 
 ## 待办
 
 1. 换 `public/assets/img/og-cover.jpg` 为本站自己的图（现为脚手架借来的）。
-2. 待 Pages 证书签发（`cert=approved`）后打开强制 HTTPS；上线当天证书尚未就绪，站点暂仅 HTTP 可访问。
-3. 第 2 期扩量：条目由 40 增至 80 左右，小型水库中有名可核者约 15 座、游线由 4 条增至 12 条、综述补三篇。
+2. 第 2 期扩量：条目由 40 增至 80 左右，小型水库中有名可核者约 15 座、游线由 4 条增至 12 条、综述补三篇。
