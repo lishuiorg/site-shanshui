@@ -1,0 +1,9 @@
+---
+/* 详情页：模板取自底座，本站的元信息行与同板块排序见 site/model.mjs。 */
+import DetailView from 'lishui-kit/astro/views/DetailView.astro';
+import { detailModel } from '../site/model.mjs';
+
+const { lang, entry } = Astro.props;
+---
+
+<DetailView {...detailModel(lang, entry)} />

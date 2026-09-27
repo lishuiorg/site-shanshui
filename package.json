@@ -1,0 +1,25 @@
+{
+  "name": "site-shanshui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "溧水山水站点库。用 Astro 读取 lishui 统一内容库，生成静态站点，部署到 shanshui.lishui.org。",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "validate": "node ../lishui/scripts/validate.mjs --site lishui-shanshui",
+    "check-links": "node ../lishui-kit/scripts/check-links.mjs",
+    "check-pages": "node ../lishui-kit/scripts/check-pages.mjs",
+    "check": "npm run validate && npm run build && npm run check-links && npm run check-pages"
+  },
+  "dependencies": {
+    "lishui-kit": "file:../lishui-kit"
+  },
+  "devDependencies": {
+    "astro": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

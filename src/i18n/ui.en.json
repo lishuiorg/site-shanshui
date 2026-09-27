@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "mountains": "Mountains",
+    "waters": "Waters",
+    "routes": "Visiting",
+    "articles": "Surveys"
+  },
+  "hero": {
+    "eyebrow": "Lishui Land and Water · Lishui District, Nanjing, Jiangsu",
+    "title": "How high the hills of Lishui rise, and how far its waters run",
+    "lede": "Hills, rivers, lakes and reservoirs, polders, dikes and sluices — each entry giving its elevation, length, area or capacity, and each figure with the document and year it comes from. Where an item has more than one official figure, all are shown rather than one chosen. With routes, annual festivals and surveys, in Chinese and English.",
+    "searchPlaceholder": "Search: Shijiu Lake, Wuxiang Mountain, Fangbian Reservoir…"
+  },
+  "stats": {
+    "basins": "Basins covered"
+  },
+  "home": {
+    "categoriesTitle": "Eight categories",
+    "categoriesNote": "Mountains and hills; rivers, lakes and reservoirs, polders and dikes; tour routes and festivals; landforms and drainage, ecology and protection. Categories are derived from an entry’s feature type or genre; they are a navigation and filtering device and do not change the entity type.",
+    "sectionsTitle": "Four sections",
+    "sectionsNote": "Mountains, waters, visiting and surveys, each with its own pages. There is no timeline here: most natural features have no dateable point of origin, so the first navigation is the drainage basin instead."
+  },
+  "list": {
+    "filterBasin": "Drainage basin",
+    "filterDistrictTowns": "Towns and subdistricts",
+    "filterDesignation": "Designation",
+    "filterSceneryGrade": "Scenic area grade",
+    "filterReservoirClass": "Reservoir class",
+    "filterElevation": "Elevation band",
+    "filterRouteMode": "Mode of travel"
+  },
+  "detail": {
+    "featureType": "Feature type",
+    "basin": "Drainage basin",
+    "districtTowns": "Towns and subdistricts",
+    "designation": "Designation",
+    "sceneryGrade": "Scenic area grade",
+    "reservoirClass": "Reservoir class",
+    "area": "Area",
+    "capacity": "Total capacity",
+    "capacityUnit": "10,000 m³",
+    "elevation": "Elevation",
+    "metreUnit": "m",
+    "length": "Length",
+    "kilometreUnit": "km",
+    "waterQuality": "Water quality",
+    "routeMode": "Mode",
+    "routeKm": "Route length",
+    "routeNodes": "Passes through",
+    "heldMonth": "Held in",
+    "host": "Organiser"
+  },
+  "indexPage": {
+    "lede": "Every entry grouped by category, giving its feature type, its basin and the towns and subdistricts it touches, for a quick check of what has and has not been written.",
+    "colFeatureType": "Feature type",
+    "colBasin": "Drainage basin",
+    "colDistrictTowns": "Towns and subdistricts",
+    "noBasin": "Basin not stated"
+  },
+  "about": {
+    "lede": "Lishui Land and Water is one of the sub-sites of A Place Called Lishui. It covers the hills, rivers, lakes and reservoirs, polders, dikes and sluices of Lishui District, together with the routes and annual festivals that belong to them and surveys of its landforms and ecology.",
+    "scopeBody": "Two entity types: place (mountains and hills, rivers, lakes and reservoirs, polders and dikes) and article (tour routes, festivals and experiences, landforms and drainage, ecology and protection). Every land-and-water feature states its feature type, its drainage basin and the towns and subdistricts it touches, and adds the figures that belong to its kind: elevation for a hill, length for a river, area for a lake or a polder, and class and capacity for a reservoir. Designations — forest park, wetland park, important wetland, ecotourism demonstration area, scenic area — are recorded as a field on the feature itself, never as a separate entry, so that one stretch of land or water has exactly one entry carrying both its physical attributes and its designations. A scenic area grade is given only where it can be checked, and once given it must have a matching passage under “Landscape and visiting”. Only published entries appear here. This site does not shut out scenic content: a good scenic area, a good sight or a good day out is written in directly whenever it belongs to the land or the water, and the only test is whether it grows out of the landscape.",
+    "sourceBody": "Sources are ranked in three tiers. Government documents and technical reports come first: elevations, river lengths, areas, capacities, designations and grades follow them, cited by document and year. Provincial and municipal department news and the mainstream press come second, used to fill in detail and cited by report and year. Scenic-area websites, travel platforms, forums and encyclopaedias come third: they are leads only, never evidence, and anything drawn from them is labelled as such and given lower confidence. Promotional wording stays out of the text: “beautiful scenery” and the like are never written, while a name such as “the Little Three Gorges of Jiangnan” may be given if it is attributed to an official tourism page. Visiting information carries the date it was checked: prices, opening hours and transport change from season to season, so no fixed figures are given — the official channel is named instead.",
+    "gapTitle": "Known gaps",
+    "gapBody": "Four gaps are set out as they stand rather than filled by inference. First, the district’s highest point, 368.5 m, appears in several official documents, but none names the hill it belongs to; this site does not guess and does not fall back on an encyclopaedia. Second, the approval years of the Dongping Lake wetland park and of the Shijiu Lake scenic area could not be verified. Third, Dajin Mountain scenic area calls itself 3A on its own website, but does not appear in the Nanjing Culture and Tourism Bureau’s list of graded scenic areas as of August 2026, so its grade is not given here; only the Dongping Lake it stands beside is written. Fourth, the number of small reservoirs is given officially as 73 and as 79; the first phase does not list them all, and both figures are set out under “Open questions” in the entries concerned. Eight divergences in figures — the area of the district, the total and in-district area of Shijiu Lake, its shoreline, the count of small reservoirs, the area of Wuxiang Mountain National Forest Park, the ecological protection red line, and the climate figures — are listed one by one with their year and source under “Open questions” in the entries concerned.",
+    "gateBody": "Every entry passes the content repository’s validation script before it is stored: required fields, controlled vocabularies, resolvable sources and relations, Chinese-English pairing and consistent proper names. This site adds twelve checks of its own: feature type, drainage basin and the towns and subdistricts touched are all required; a hill gives its elevation, a river its length, a lake or polder its area; anything with “reservoir” in the title gives its class; every town or subdistrict named must already exist in the towns sub-site rather than be invented; every designation carries a year and has a matching passage in the body; a scenic area grade must state the year it was awarded and have a “Landscape and visiting” section; the body must carry its fixed sections — four for a feature, three for an article by genre; the English draft may not contain Chinese characters in its designations, scenic grade, towns, route nodes or address; numeric fields must be identical in the two languages; coordinates must fall inside Lishui District; and every value of the new vocabularies must have an English rendering.",
+    "techBody": "The site is static. Markdown from the content repository is rendered at build time; there is no database and no client-side framework. The filters, the search and the list paging all run on the generated pages, with no second data file produced. There is no timeline: the dates reach only as far as “Ming” or “1958”, and most natural features have no dateable point of origin, so a timeline would be an axis mostly empty. The first navigation is the drainage basin instead, and the filters run on basin, on the towns and subdistricts touched, on designations, on scenic area grade, on reservoir class, on elevation band and on mode of travel; entries whose coordinates can be checked show their latitude and longitude in the details panel.",
+    "fixTitle": "Corrections",
+    "fixBody": "If you find a factual error, a dead link or an inconsistent rendering of a proper name, open an issue in the network’s repository, giving the entry ID and your evidence. Once checked, the entry is corrected and its updated field changed to that day."
+  },
+  "footer": {
+    "about": "Lishui Land and Water is one of the sub-sites of A Place Called Lishui. Entry text is licensed CC BY 4.0, sources are recorded one by one, and where an item has more than one official figure all are shown."
+  },
+  "type": { "place": "Place" }
+}

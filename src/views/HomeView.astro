@@ -1,0 +1,9 @@
+---
+/* 首页：形态取底座的「板块卡」变体，本站要算的东西在 site/model.mjs。 */
+import HomeBoardView from 'lishui-kit/astro/views/HomeBoardView.astro';
+import { homeModel } from '../site/model.mjs';
+
+const { lang } = Astro.props;
+---
+
+<HomeBoardView {...homeModel(lang)} />

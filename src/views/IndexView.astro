@@ -1,0 +1,9 @@
+---
+/* 索引页：模板取自底座，本站的分组维度与列序在 site/model.mjs。 */
+import IndexView from 'lishui-kit/astro/views/IndexView.astro';
+import { indexModel } from '../site/model.mjs';
+
+const { lang } = Astro.props;
+---
+
+<IndexView {...indexModel(lang)} />

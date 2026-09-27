@@ -1,0 +1,9 @@
+---
+/* 关于页：模板取自底座，本站规模条取哪几项与两栏各放哪几节见 site/model.mjs。 */
+import AboutView from 'lishui-kit/astro/views/AboutView.astro';
+import { aboutModel } from '../site/model.mjs';
+
+const { lang } = Astro.props;
+---
+
+<AboutView {...aboutModel(lang)} />
