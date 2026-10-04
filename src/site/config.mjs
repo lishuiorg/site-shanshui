@@ -14,7 +14,7 @@
 export const SITE = {
   id: 'lishui-shanshui',
   name: '溧水山水',
-  nameEn: 'Lishui Land and Water',
+  nameEn: 'Lishui Nature',
   host: 'shanshui.lishui.org',
   origin: 'https://shanshui.lishui.org',
   portal: 'https://lishui.org',

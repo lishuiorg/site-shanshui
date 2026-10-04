@@ -48,7 +48,9 @@
     "routeKm": "线路长度",
     "routeNodes": "途经",
     "heldMonth": "举办月份",
-    "host": "主办"
+    "host": "主办",
+    "coordinates": "坐标",
+    "placeType": "空间类型"
   },
   "indexPage": {
     "lede": "按类别分组总览全部条目，列出实体类型、所属流域与跨涉镇街三列，供「有没有写」的快速核对。",

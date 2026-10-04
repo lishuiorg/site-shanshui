@@ -6,7 +6,7 @@
     "articles": "Surveys"
   },
   "hero": {
-    "eyebrow": "Lishui Land and Water · Lishui District, Nanjing, Jiangsu",
+    "eyebrow": "Lishui Nature · Lishui District, Nanjing, Jiangsu",
     "title": "How high the hills of Lishui rise, and how far its waters run",
     "lede": "Hills, rivers, lakes and reservoirs, polders, dikes and sluices — each entry giving its elevation, length, area or capacity, and each figure with the document and year it comes from. Where an item has more than one official figure, all are shown rather than one chosen. With routes, annual festivals and surveys, in Chinese and English.",
     "searchPlaceholder": "Search: Shijiu Lake, Wuxiang Mountain, Fangbian Reservoir…"
@@ -48,7 +48,9 @@
     "routeKm": "Route length",
     "routeNodes": "Passes through",
     "heldMonth": "Held in",
-    "host": "Organiser"
+    "host": "Organiser",
+    "coordinates": "Coordinates",
+    "placeType": "Place type"
   },
   "indexPage": {
     "lede": "Every entry grouped by category, giving its feature type, its basin and the towns and subdistricts it touches, for a quick check of what has and has not been written.",
@@ -58,7 +60,7 @@
     "noBasin": "Basin not stated"
   },
   "about": {
-    "lede": "Lishui Land and Water is one of the sub-sites of A Place Called Lishui. It covers the hills, rivers, lakes and reservoirs, polders, dikes and sluices of Lishui District, together with the routes and annual festivals that belong to them and surveys of its landforms and ecology.",
+    "lede": "Lishui Nature is one of the sub-sites of A Place Called Lishui. It covers the hills, rivers, lakes and reservoirs, polders, dikes and sluices of Lishui District, together with the routes and annual festivals that belong to them and surveys of its landforms and ecology.",
     "scopeBody": "Two entity types: place (mountains and hills, rivers, lakes and reservoirs, polders and dikes) and article (tour routes, festivals and experiences, landforms and drainage, ecology and protection). Every land-and-water feature states its feature type, its drainage basin and the towns and subdistricts it touches, and adds the figures that belong to its kind: elevation for a hill, length for a river, area for a lake or a polder, and class and capacity for a reservoir. Designations — forest park, wetland park, important wetland, ecotourism demonstration area, scenic area — are recorded as a field on the feature itself, never as a separate entry, so that one stretch of land or water has exactly one entry carrying both its physical attributes and its designations. A scenic area grade is given only where it can be checked, and once given it must have a matching passage under “Landscape and visiting”. Only published entries appear here. This site does not shut out scenic content: a good scenic area, a good sight or a good day out is written in directly whenever it belongs to the land or the water, and the only test is whether it grows out of the landscape.",
     "sourceBody": "Sources are ranked in three tiers. Government documents and technical reports come first: elevations, river lengths, areas, capacities, designations and grades follow them, cited by document and year. Provincial and municipal department news and the mainstream press come second, used to fill in detail and cited by report and year. Scenic-area websites, travel platforms, forums and encyclopaedias come third: they are leads only, never evidence, and anything drawn from them is labelled as such and given lower confidence. Promotional wording stays out of the text: “beautiful scenery” and the like are never written, while a name such as “the Little Three Gorges of Jiangnan” may be given if it is attributed to an official tourism page. Visiting information carries the date it was checked: prices, opening hours and transport change from season to season, so no fixed figures are given — the official channel is named instead.",
     "gapTitle": "Known gaps",
@@ -69,7 +71,7 @@
     "fixBody": "If you find a factual error, a dead link or an inconsistent rendering of a proper name, open an issue in the network’s repository, giving the entry ID and your evidence. Once checked, the entry is corrected and its updated field changed to that day."
   },
   "footer": {
-    "about": "Lishui Land and Water is one of the sub-sites of A Place Called Lishui. Entry text is licensed CC BY 4.0, sources are recorded one by one, and where an item has more than one official figure all are shown."
+    "about": "Lishui Nature is one of the sub-sites of A Place Called Lishui. Entry text is licensed CC BY 4.0, sources are recorded one by one, and where an item has more than one official figure all are shown."
   },
   "type": { "place": "Place" }
 }
